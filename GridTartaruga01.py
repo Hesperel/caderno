@@ -66,8 +66,7 @@ class Agente(Coisa):
 class Tartaruga(Agente):
     def __init__(self,estadoInicial = None, funcaoAgente = None):
         super().__init__(estadoInicial,funcaoAgente)
-        #self.img = pygame.image.load('Tartaruga.png')
-        self.img = pygame.image.load('C:/Users/Rodri/OneDrive/Documentos/Tartaruga.png')
+        self.img = pygame.image.load('Tartaruga.png')
         self.idNoTabuleiro=3
 
         
@@ -96,8 +95,7 @@ class bloco(Coisa):
 class Minhoca(Coisa):
     def __init__(self,estado = None,x = 0, y = 0):
         super().__init__(estado)
-        #self.img = pygame.image.load('Minhoca.png')
-        self.img = pygame.image.load('C:/Users/Rodri/OneDrive/Documentos/Minhoca.png')
+        self.img = pygame.image.load('Minhoca.png')
         self.x = x
         self.y = y
         self.idNoTabuleiro=2
