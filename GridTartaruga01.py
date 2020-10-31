@@ -199,7 +199,7 @@ def deslocamendoParaExibi(t):
 
 
 a = ReinoAnimal([])
-a.adicionaAgente(t)
+t = Tartaruga([],deslocamendoParaExibi)
 
 
 # In[ ]:
